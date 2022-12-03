@@ -6,7 +6,7 @@ import './Proyects.css';
 
 function Proyects() {
   return (
-    <>
+    <div>
       <Header />
       <div className="container">
         <h2>Proyectos</h2>
@@ -56,7 +56,7 @@ function Proyects() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
