@@ -1,0 +1,42 @@
+.ContainerHome {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContainerHome h1 {
+  font-size: 100px;
+}
+
+.ContainerHome h1 strong {
+  color: rgb(77, 180, 129);
+}
+
+.ContainerHome h2 {
+  font-size: 20px;
+  color: rgb(90, 90, 90);
+  font-weight: 300;
+}
+
+.ContainerHome a {
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(77, 180, 129);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+
+.ContainerHome p {
+  color: gray;
+  font-weight: 200;
+}
+
+.ContainerHome a:hover {
+  color: white;
+  background-color: black;
+}

@@ -1,0 +1,49 @@
+.LoginContainer {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.LoginContainer form {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+}
+
+.LoginContainer h1 {
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+
+.LoginContainer h5 {
+  color: black;
+}
+
+.LoginContainer p {
+  color: red;
+  font-weight: bolder;
+}
+
+.LoginContainer Button {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 40%;
+  transition: all 300ms;
+}
+
+.LoginContainer Button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+@media (max-width: 900px) {
+  .LoginContainer form {
+    width: 60%;
+  }
+}
