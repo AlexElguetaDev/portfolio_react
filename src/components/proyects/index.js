@@ -21,35 +21,35 @@ function Proyects() {
           <MediaCard
             imageUrl="/assets/Portfolio.png"
             imageAlt="Previsualización de Portfolio"
-            title="Primer Porfolio"
+            title="Porfolio"
             viewUrl="https://alexelguetadev.github.io/Portfolio2022/"
             codeUrl="https://github.com/AlexElguetaDev/Portfolio2022"
           />
           <MediaCard
             imageUrl="/assets/Tesla.png"
             imageAlt="Previsualización de Tesla"
-            title="Tesla Clon"
+            title="Tesla"
             viewUrl="???"
             codeUrl="https://github.com/AlexElguetaDev/clon_tesla.com"
           />
           <MediaCard
             imageUrl="/assets/Clima.png"
             imageAlt="Previsualización de Clima"
-            title="Api weather js"
+            title="Clima"
             viewUrl="https://alexelguetadev.github.io/api_weather_js/"
             codeUrl="https://github.com/AlexElguetaDev/api_weather_js"
           />
           <MediaCard
             imageUrl="/assets/Belleza.png"
             imageAlt="Previsualización de Belleza"
-            title="Web de belleza"
+            title="Belleza"
             viewUrl="https://alexelguetadev.github.io/Desafio_web_de_belleza/"
             codeUrl="https://github.com/AlexElguetaDev/Desafio_web_de_belleza"
           />
           <MediaCard
             imageUrl="/assets/Tecnica.png"
             imageAlt="Previsualización de Tecnica"
-            title="Prueba Tecnica TCIT"
+            title="Tecnica"
             viewUrl="???"
             codeUrl="https://github.com/AlexElguetaDev/pruebaTecnicaTCIT"
           />

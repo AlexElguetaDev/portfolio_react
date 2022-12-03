@@ -18,14 +18,14 @@ function ProyectsHome() {
           <MediaCard
             imageUrl="/assets/Tesla.png"
             imageAlt="Previsualización de Tesla"
-            title="Tesla Clon"
+            title="Tesla"
             viewUrl="???"
             codeUrl="https://github.com/AlexElguetaDev/clon_tesla.com"
           />
           <MediaCard
             imageUrl="/assets/Tecnica.png"
             imageAlt="Previsualización de Tecnica"
-            title="Prueba Tecnica TCIT"
+            title="Tecnica"
             viewUrl="???"
             codeUrl="https://github.com/AlexElguetaDev/pruebaTecnicaTCIT"
           />
