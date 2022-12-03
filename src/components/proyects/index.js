@@ -13,42 +13,42 @@ function Proyects() {
         <div className="container__proyects">
           <MediaCard
             imageUrl="/assets/GoogleClon.png"
-            imageAlt="Previsualización de página"
+            imageAlt="Previsualización de GoogleClon"
             title="Google Clon"
             viewUrl="https://alexelguetadev.github.io/GoogleClon"
             codeUrl="https://github.com/AlexElguetaDev/GoogleClon"
           />
           <MediaCard
             imageUrl="/assets/Portfolio.png"
-            imageAlt="Previsualización de página"
+            imageAlt="Previsualización de Portfolio"
             title="Primer Porfolio"
             viewUrl="https://alexelguetadev.github.io/Portfolio2022/"
             codeUrl="https://github.com/AlexElguetaDev/Portfolio2022"
           />
           <MediaCard
             imageUrl="/assets/Tesla.png"
-            imageAlt="Previsualización de página"
+            imageAlt="Previsualización de Tesla"
             title="Tesla Clon"
             viewUrl="???"
             codeUrl="https://github.com/AlexElguetaDev/clon_tesla.com"
           />
           <MediaCard
             imageUrl="/assets/Clima.png"
-            imageAlt="Previsualización de página"
+            imageAlt="Previsualización de Clima"
             title="Api weather js"
             viewUrl="https://alexelguetadev.github.io/api_weather_js/"
             codeUrl="https://github.com/AlexElguetaDev/api_weather_js"
           />
           <MediaCard
             imageUrl="/assets/Belleza.png"
-            imageAlt="Previsualización de página"
+            imageAlt="Previsualización de Belleza"
             title="Web de belleza"
             viewUrl="https://alexelguetadev.github.io/Desafio_web_de_belleza/"
             codeUrl="https://github.com/AlexElguetaDev/Desafio_web_de_belleza"
           />
           <MediaCard
             imageUrl="/assets/Tecnica.png"
-            imageAlt="Previsualización de página"
+            imageAlt="Previsualización de Tecnica"
             title="Prueba Tecnica TCIT"
             viewUrl="???"
             codeUrl="https://github.com/AlexElguetaDev/pruebaTecnicaTCIT"
