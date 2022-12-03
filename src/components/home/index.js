@@ -3,6 +3,8 @@ import Header from '../header';
 import Footer from '../footer';
 import { Link } from "react-router-dom";
 import './Home.css';
+import Proyects from '../proyects';
+import ProyectsHome from '../proyectsHome';
 
 function Home() {
   return (
@@ -20,6 +22,7 @@ function Home() {
           <Link to="/Contacto">Contacta conmigo</Link>
         </p>
       </div>
+      <ProyectsHome/>
       <Footer />
     </div>
   );
