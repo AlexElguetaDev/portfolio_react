@@ -1,8 +1,9 @@
 import React from 'react'
 import Footer from '../footer'
 import Header from '../header'
-import './Portfolio.css'
-import List from '../list'
+/* import './Portfolio.css' */
+/* import List from '../list' */
+import Proyects from '../proyects'
 
 const Portfolio = () => {
   return (
@@ -10,7 +11,8 @@ const Portfolio = () => {
       <Header />
       <div>
         <h1>Proyectos</h1>
-        <List/>
+        {/* <List/> */}
+        <Proyects/>
       </div>
       <Footer />
     </div>

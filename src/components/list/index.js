@@ -12,7 +12,7 @@ const List = ({ limite = 6}) => {
                 <img src={"/image/" + work.id + ".png"} alt={work.id}></img>
               </div>
               <span>{work.categoria}</span>
-              <h2 className="prin">
+              <h2>
                 <Link to={"/proyecto/" + work.id}>{work.nombre}</Link>
               </h2>
               <h3>{work.tecnologias}</h3>

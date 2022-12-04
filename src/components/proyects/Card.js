@@ -6,19 +6,13 @@ import Typography from '@mui/material/Typography';
 import './Proyects.css';
 
 export default function MediaCard(params) {
-  console.log(params.imageUrl);
-  console.log(params.imageAlt);
-  console.log(params.title);
-  console.log(params.description);
-  console.log(params.viewUrl);
-  console.log(params.codeUrl);
 
   return (
     <Card className="Card" sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <img
           component="img"
-          height="190px"
+          height="180px"
           width="300px"
           src={params.imageUrl}
           alt={params.imageAlt}

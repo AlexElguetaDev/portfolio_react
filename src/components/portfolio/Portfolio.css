@@ -1,7 +1,4 @@
-.works {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .work-item {
   flex-basis: 25%;

@@ -3,7 +3,8 @@ import Header from '../header';
 import Footer from '../footer';
 import { Link } from "react-router-dom";
 import './Home.css';
-import List from '../list';
+import Proyects from '../proyects';
+/* import List from '../list'; */
 
 function Home() {
   return (
@@ -18,10 +19,11 @@ function Home() {
           relevancia en internet.
         </h2>
         <p>
-          <Link to="/Contacto">Contacta conmigo</Link>
+          <Link to="/Contacto" className='Contact'>Contacta conmigo</Link>
         </p>
         <h3>↓Algunos de mis proyectos↓</h3>
-        <List limite="3" />
+        {/* <List limite="3" /> */}
+        <Proyects limite="3" />
       </div>
       <Footer />
     </div>
