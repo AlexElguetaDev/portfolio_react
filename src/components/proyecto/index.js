@@ -23,7 +23,7 @@ const Proyecto = () => {
         <h1 className="heading">{proyecto.nombre}</h1>
         <p className="tec">{proyecto.tecnologias}</p>
         <a
-          href={"https://" + proyecto.url}
+          href={proyecto.url}
           target="_blank"
           rel="noreferrer noopener"
         >
