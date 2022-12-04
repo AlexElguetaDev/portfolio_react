@@ -55,8 +55,8 @@ function Proyects({limite = 6}) {
               imageUrl={"/image/" + work.id + ".png"}
               imageAlt={work.id}
               title={work.nombre}
-              viewUrl="https://alexelguetadev.github.io/GoogleClon"
-              codeUrl="https://github.com/AlexElguetaDev/GoogleClon"
+              viewUrl={work.url}
+              codeUrl={work.codeUrl}
             />
           </div>
         ))}
