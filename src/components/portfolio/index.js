@@ -15,7 +15,7 @@ const Portfolio = () => {
           {works.map((work) => (
             <article key={work.id} className="work-item">
               <div className="mask">
-                <img src={"/assets/" + work.id + ".png"} alt={work.id}></img>
+                <img src={"/image/" + work.id + ".png"} alt={work.id}></img>
               </div>
               <span>{work.categoria}</span>
               <h2>

@@ -8,7 +8,7 @@ export const works = [
     'descripcion': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae arcu facilisis, auctor tellus ut, vulputate felis. Praesent accumsan pharetra lectus eget porttitor. Fusce laoreet auctor eros vel vestibulum. Morbi ac vestibulum sem, et mattis purus. Nulla eu lectus ac felis tincidunt finibus. Sed luctus interdum risus eget sodales. Vivamus semper odio id diam ullamcorper iaculis. Praesent varius dui ut mauris interdum, eu viverra nibh mattis. Morbi non faucibus dui, vel dignissim velit. Donec tristique elit a dignissim porta.'
   },
   {
-    'id': "GoogleClon",
+    'id': "Googleclon",
     'nombre': "Google Clon",
     'url': "https://alexelguetadev.github.io/GoogleClon",
     'tecnologias': "HTML, CSS",

@@ -13,14 +13,13 @@ const Proyecto = () => {
   useEffect(() => {
     let proyecto = works.filter(work => work.id === params.id);
     setProyecto(proyecto[0]);
-    
-  }, []);
+  },[]);
 
   return (
     <div>
       <Header />
       <div className="page page-work">
-        <img src={"/assets/" + proyecto.id + ".png"} alt={proyecto.id}></img>
+        <img src={"/image/" + proyecto.id + ".png"} alt={proyecto.id}></img>
         <h1 className="heading">{proyecto.nombre}</h1>
         <p className="tec">{proyecto.tecnologias}</p>
         <a
