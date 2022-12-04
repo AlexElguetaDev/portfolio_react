@@ -10,7 +10,7 @@ import Proyecto from '../components/proyecto';
 
 function Router() {
   return (
-    <BrowserRouter basename="/portfolio_react">
+    <BrowserRouter >
       <Routes>
         <Route path="/" element={<Login />} />
         <Route element={<ProtectedRoutes />}>
