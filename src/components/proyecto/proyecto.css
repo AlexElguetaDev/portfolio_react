@@ -1,0 +1,39 @@
+.page-work img {
+  height: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px #ccc;
+}
+
+.page-work h1 {
+ font-size: 50px;
+ text-transform: uppercase;
+}
+
+.page-work .tec {
+  color: gray;
+  font-size: 20px;
+  margin-top: -45px;
+}
+
+.page-work .des {
+  font-size: 20px;
+  text-align: justify;
+  padding: 0px 90px;
+  border-top: 1px solid #ccc;
+}
+
+.page-work a {
+  font-size: 20px;
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(77, 180, 129);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.page-work a:hover {
+  color: white;
+  background-color: black;
+}
