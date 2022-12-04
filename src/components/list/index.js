@@ -13,7 +13,7 @@ const List = ({ limite = 6}) => {
               </div>
               <span>{work.categoria}</span>
               <h2 className="prin">
-                <Link to={"/Proyecto/" + work.id}>{work.nombre}</Link>
+                <Link to={"/proyecto/" + work.id}>{work.nombre}</Link>
               </h2>
               <h3>{work.tecnologias}</h3>
             </article>

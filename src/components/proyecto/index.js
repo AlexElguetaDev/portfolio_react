@@ -6,12 +6,14 @@ import { works } from '../../data/works';
 import './Proyecto.css'
 
 const Proyecto = () => {
-  const [proyecto, setProyecto] = useState({});
+
+  const [proyecto, setProyecto] = useState("");
   const params = useParams();
 
   useEffect(() => {
     let proyecto = works.filter((work) => work.id === params.id);
     setProyecto(proyecto[0]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
