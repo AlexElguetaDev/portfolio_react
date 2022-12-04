@@ -6,14 +6,13 @@ import { works } from '../../data/works';
 import './Proyecto.css'
 
 const Proyecto = () => {
-
-  const [proyecto, setProyecto] = useState({})
+  const [proyecto, setProyecto] = useState({});
   const params = useParams();
 
   useEffect(() => {
-    let proyecto = works.filter(work => work.id === params.id);
+    let proyecto = works.filter((work) => work.id === params.id);
     setProyecto(proyecto[0]);
-  },[]);
+  }, []);
 
   return (
     <div>
@@ -22,11 +21,7 @@ const Proyecto = () => {
         <img src={"/image/" + proyecto.id + ".png"} alt={proyecto.id}></img>
         <h1 className="heading">{proyecto.nombre}</h1>
         <p className="tec">{proyecto.tecnologias}</p>
-        <a
-          href={proyecto.url}
-          target="_blank"
-          rel="noreferrer noopener"
-        >
+        <a href={proyecto.url} target="_blank" rel="noreferrer noopener">
           Ir al proyecto
         </a>
         <p className="des">{proyecto.descripcion}</p>
