@@ -6,12 +6,12 @@ import './Login.css';
 import LoginContext from '../../context/LoginContext';
 
 function Login() {
-  // VARIABLES DE VALIDACION
+  // VALIDACION
   const validEmail =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
   const validId = /^[0-9]+$/;
 
-  // VARIBALES DE useCONTEXT
+  // useCONTEXT
   const context = useContext(LoginContext);
   const { logged, token } = context;
   const { email } = context.values;
@@ -19,7 +19,7 @@ function Login() {
   const [valueLogged, setValueLogged] = logged;
   const [valueToken, setValueToken] = token;
 
-  // VARIABLES FORM
+  // FORM
   const [valueEmail, setValueEmail] = useState({ campo: '' });
   const [valueId, setValueId] = useState({ campo: '' });
   const [errorEmail, setErrorEmail] = useState('');
@@ -27,13 +27,13 @@ function Login() {
 
   const navigate = useNavigate();
 
-  // NO RETORNO
+  // SIN RETORNO
   useEffect(() => {
     setValueLogged(false);
     // eslint-disable-next-line
   }, []);
 
-  // FUNCIONES VALIDACION
+  // VALIDACION
   const onChangeEmail = (e) => {
     setValueEmail({ ...valueEmail, campo: e.target.value });
     if (validEmail.test(valueEmail.campo)) {
@@ -68,7 +68,7 @@ function Login() {
       });
   }
 
-  // CAPTURA DE DATOS
+  // CAPTURA
   function onSubmit(e) {
     e.preventDefault();
 
@@ -84,7 +84,7 @@ function Login() {
   // FORMULARIO
   return (
     <div className="LoginContainer">
-      <h1 data-testid="title">Bienvenido</h1>
+      <h1 data-testid="title">Welcome</h1>
       <form onSubmit={onSubmit}>
         <TextField
           onChange={onChangeEmail}
