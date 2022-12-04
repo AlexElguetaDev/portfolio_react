@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import Footer from '../footer';
 import Header from '../header';
 import { works } from '../../data/works';
-import './proyecto.css'
+import './Proyecto.css'
 
 const Proyecto = () => {
 

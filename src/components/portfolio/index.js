@@ -1,9 +1,8 @@
 import React from 'react'
 import Footer from '../footer'
 import Header from '../header'
-import { works } from '../../data/works'
-import { Link } from 'react-router-dom'
 import './Portfolio.css'
+import List from '../list'
 
 const Portfolio = () => {
   return (
@@ -11,20 +10,7 @@ const Portfolio = () => {
       <Header />
       <div>
         <h1>Proyectos</h1>
-        <section className="works">
-          {works.map((work) => (
-            <article key={work.id} className="work-item">
-              <div className="mask">
-                <img src={"/image/" + work.id + ".png"} alt={work.id}></img>
-              </div>
-              <span>{work.categoria}</span>
-              <h2>
-                <Link to={"/proyecto/" + work.id}>{work.nombre}</Link>
-              </h2>
-              <h3>{work.tecnologias}</h3>
-            </article>
-          ))}
-        </section>
+        <List/>
       </div>
       <Footer />
     </div>

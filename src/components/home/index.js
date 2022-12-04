@@ -3,6 +3,7 @@ import Header from '../header';
 import Footer from '../footer';
 import { Link } from "react-router-dom";
 import './Home.css';
+import List from '../list';
 
 function Home() {
   return (
@@ -19,6 +20,8 @@ function Home() {
         <p>
           <Link to="/Contacto">Contacta conmigo</Link>
         </p>
+        <h3>↓Algunos de mis proyectos↓</h3>
+        <List limite="3" />
       </div>
       <Footer />
     </div>
