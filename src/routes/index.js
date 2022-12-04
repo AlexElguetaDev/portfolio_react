@@ -10,14 +10,14 @@ import Proyecto from '../components/proyecto';
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio_react">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route element={<ProtectedRoutes />}>
           <Route path="/inicio" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contacto" element={<Contact />} />
-          <Route path="/proyecto/:id" element={<Proyecto/>} />
+          <Route path="/proyecto/:id" element={<Proyecto />} />
         </Route>
         <Route path="*" element={<ErrorPage />} />
       </Routes>
